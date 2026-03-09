@@ -11,7 +11,7 @@
 
 OpenClaw skill for Atlassian Jira Cloud — CRUD issues, comments, attachments, workflow transitions, and JQL search via Jira REST API v3.
 
-By [Abdelkrim BOUJRAF](https://www.alt-f1.be) / ALT-F1 SRL, Brussels 🇧🇪
+By [Abdelkrim BOUJRAF](https://www.alt-f1.be) / ALT-F1 SRL, Brussels 🇧🇪 🇲🇦
 
 ## Features
 
@@ -70,6 +70,6 @@ MIT — see [LICENSE](./LICENSE)
 
 ## Author
 
-Abdelkrim BOUJRAF — [ALT-F1 SRL](https://www.alt-f1.be), Brussels 🇧🇪
+Abdelkrim BOUJRAF — [ALT-F1 SRL](https://www.alt-f1.be), Brussels 🇧🇪 🇲🇦
 - GitHub: [@abdelkrim](https://github.com/abdelkrim)
 - X: [@altf1be](https://x.com/altf1be)
