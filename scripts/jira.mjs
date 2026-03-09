@@ -150,7 +150,8 @@ async function cmdList(options) {
     const updated = f.updated?.substring(0, 10) || '';
     console.log(`🎫  ${issue.key.padEnd(12)}  ${status.padEnd(14)}  ${priority.padEnd(8)}  ${assignee.padEnd(20)}  ${updated}  ${f.summary}`);
   }
-  console.log(`\n${resp.issues.length} of ${resp.total} issues`);
+  const total = resp.total ?? resp.maxResults ?? resp.issues.length;
+  console.log(`\n${resp.issues.length} of ${total} issues`);
 }
 
 async function cmdCreate(options) {
@@ -331,7 +332,8 @@ async function cmdSearch(options) {
     const updated = f.updated?.substring(0, 10) || '';
     console.log(`🎫  ${issue.key.padEnd(12)}  ${status.padEnd(14)}  ${priority.padEnd(8)}  ${assignee.padEnd(20)}  ${updated}  ${f.summary}`);
   }
-  console.log(`\n${resp.issues.length} of ${resp.total} issues`);
+  const total = resp.total ?? resp.maxResults ?? resp.issues.length;
+  console.log(`\n${resp.issues.length} of ${total} issues`);
 }
 
 // ── Comment commands ────────────────────────────────────────────────────────
